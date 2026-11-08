@@ -1,0 +1,21 @@
+# This repository publishes research documents only.
+# All workspace tooling, code checkouts and deployment files stay local.
+*
+!/.gitignore
+!/docs/
+!/docs/backlog/
+!/docs/backlog/todo/
+!/docs/backlog/todo/init-info/
+!/docs/backlog/todo/init-info/README.md
+!/docs/backlog/todo/init-info/en/
+!/docs/backlog/todo/init-info/en/*.md
+!/docs/backlog/todo/init-info/ru/
+!/docs/backlog/todo/init-info/ru/*.md
+
+# Private files remain excluded even inside the research folders.
+.env*
+*.env
+*credential*
+*secret*
+*token*
+*auth*
